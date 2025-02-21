@@ -1,5 +1,4 @@
-
-		.container_huge {
+                .container_huge {
 			display: grid;
 			border: 0.02rem solid transparent;
 			place-items: center;
@@ -12,9 +11,9 @@
 			padding: 1rem;
 			border-radius: 0.3rem;
 		}
-	    .pic_cell:hover {
+	        .pic_cell:hover {
 		    border: 0.005rem solid #E7D284;     
-       	}
+       	        }
 		.pic_cell {	
 			display: grid;
 			border: 0.005rem solid #777776; 
@@ -123,18 +122,19 @@
 		}
 		
 		/* el: 329, 333, 355, 359, 381, 385, 407, 433, 459, 485 */
-	    #element329, #element333, #element355, #element359, #element381, #element385, #element407, #element433, #element459, #element485 {
-	        background: #B4641F; 
-	    }
-	    
-	    /* el: 130 */
+	        #element329, #element333, #element355, #element359, #element381, #element385, #element407, #element433, #element459, #element485 {
+	           background: #B4641F; 
+	        } 
+
+	        /* el: 130 */
 		#element130 {
 		    background: #EBE5D2;  
 		}
+
 		/* el: 27, 52, 53, 78, 79, 104, 105, 131 */
-        #element27, #element52, #element53, #element78, #element79, #element104, #element105, #element131 {
-            background: #E7D284;  
-        }
+                #element27, #element52, #element53, #element78, #element79, #element104, #element105, #element131 {
+                   background: #E7D284;  
+                }
         @media(min-width: 1950px) {
             .container_huge {
                 width: 1400px;
@@ -147,13 +147,13 @@
             }
             .pic_cell {
                 width: 0.56rem; 
-			    height: 0.466rem;
+		height: 0.466rem;
             }
         }
         @media(max-width: 320px) {
             .pic_cell {
                 width: 0.42rem; 
-			    height: 0.35rem;
+		height: 0.35rem;
             }
         }
         @media(max-width: 279px) {
