@@ -1,0 +1,171 @@
+
+		.container_huge {
+			display: grid;
+			border: 0.02rem solid transparent;
+			place-items: center;
+		}
+		.pixel {
+			display: grid;
+			border: 0.02rem solid #524E41; 
+			grid-template-columns:  repeat(25, 1fr);
+			grid-template-rows: auto;
+			padding: 1rem;
+			border-radius: 0.3rem;
+		}
+	    .pic_cell:hover {
+		    border: 0.005rem solid #E7D284;     
+       	}
+		.pic_cell {	
+			display: grid;
+			border: 0.005rem solid #777776; 
+			width: 0.84rem; 
+			height: 0.7rem;
+			background: ghostwhite;
+		}
+		
+		/* el: 2, 26, 28, 51, 54, 77, 80, 103, 106, 129 */
+		#element2, #element26, #element28, #element51, #element54, #element77, #element80, #element103, #element106, #element129 {
+		    background: #524E41; 
+		}
+		
+		/* el: 109, 110, 111, 112, 113, 132, 133, 134, 139, 155, 156, 157, 165, 179, 180, 191, 203, 204, 217, 228,
+		       243, 253, 269, 278, 295, 303, 321, 328, 347 */
+		#element109, #element110, #element111, #element112, #element113, #element132, #element133, #element134, #element139, #element155, #element156, #element157, #element165, #element179, #element180, #element191, #element203, #element204, #element217, #element228, #element243, #element253, #element269, #element278, #element295, #element303, #element321, #element328, #element347 {
+		    background: #7A4517; 
+		}
+		
+		/* el: 353, 373, 378, 399, 404, 425, 430, 450, 456, 475, 482, 500, 508, 525, 534, 538, 539, 540, 549, 550,
+		       560, 561, 562, 566, 573, 574, 592, 596, 597, 598, 618, 619, 620, 621 */
+		#element353, #element373, #element378, #element399, #element404, #element425, #element430, #element450, #element456, #element475, #element482, #element500, #element508, #element525, #element534, #element538, #element539, #element540, #element549, #element550, #element560, #element561, #element562, #element566, #element573, #element574, #element592, #element596, #element597, #element598, #element618, #element619, #element620, #element621 {
+		    background: #7A4517; 
+		}
+		
+		/* el: 135, 136, 137, 138, 158, 159, 160, 161, 162, 163, 164, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190,
+		      205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216 */
+		#element135, #element136, #element137, #element138, #element158, #element159, #element160, #element161, #element162, #element163, #element164, #element181, #element182, #element183, #element184, #element185, #element186, #element187, #element188, #element189, #element190, #element205, #element206, #element207, #element208, #element209, #element210, #element211, #element212, #element213, #element214, #element215, #element216 {
+		    background: #B45808; 
+		}
+		
+		/* el: 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 255, 256, 257, 258, 259, 260, 261,
+		       262, 263, 264, 265, 266, 267, 268 */
+		#element229, #element230, #element231, #element232, #element233, #element234, #element235, #element236, #element237, #element238, #element239, #element240, #element241, #element242, #element255, #element256, #element257, #element258, #element259, #element260, #element261, #element262, #element263, #element264, #element265, #element266, #element267, #element268 {
+		   background: #B45808;  
+		}
+		
+		/* el: 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294 */
+		#element281, #element282, #element283, #element284, #element285, #element286, #element287, #element288, #element289, #element290, #element291, #element292, #element293, #element294 {
+		   background: #B45808;  
+		}
+		
+		/* el: 307-320 */
+		#element307, #element308, #element309, #element310, #element311, #element312, #element313, #element314, #element315, #element316, #element317, #element318, #element319, #element320 {
+		   background: #B45808; 
+		}
+		
+		/* el: 334-346 */
+		#element334, #element335, #element336, #element337, #element338, #element339, #element340, #element341, #element342, #element343, #element344, #element345, #element346 {
+		   background: #B45808;  
+		}
+		
+		/* el: 354, 360-372 */
+		#element354, #element360, #element361, #element362, #element363, #element364, #element365, #element366, #element367, #element368, #element369, #element370, #element371, #element372 {
+		    background: #B45808;  
+		}
+		
+		/* el: 406, 412, 417, 418, 419, 420, 432, 443, 458, 473, 474, 484 */
+		#element406, #element412, #element417, #element418, #element419, #element420, #element432, #element443, #element458, #element473, #element474, #element484 {
+		    background: #B45808;  
+		}
+		
+		/* el: 379, 405, 413, 414, 415, 416, 431, 437, 442, 457, 461, 468, 483, 486, 493 */
+		#element379, #element405, #element413, #element414, #element415, #element416, #element431, #element437, #element442, #element457, #element461, #element468, #element483, #element486, #element493 {
+		    background: #995820;  
+		}
+		
+		/* el: 509, 511, 518, 524, 535, 536, 543, 548, 568, 571, 572, 593, 594, 595 */
+		#element509, #element511, #element518, #element524, #element535, #element536, #element543, #element548, #element568, #element571, #element572, #element593, #element594, #element595 {
+		    background: #995820;
+		}
+		
+		/* el: 438, 439, 440, 441, 462, 467, 487, 492, 512, 517, 537, 542, 567 */
+		#element438, #element439, #element440, #element441, #element462, #element467, #element487, #element492, #element512, #element517, #element537, #element542, #element567 {
+		    background: #E07F2C; 
+		}
+		
+		/* el: 463, 464, 465, 488, 489, 490, 491, 513, 514, 515, 516, 541 */
+		#element463, #element464, #element465, #element466, #element488, #element489, #element490, #element491, #element513, #element514, #element515, #element516, #element541 {
+		    background: #F8EAB6;  
+		}
+		
+		/* el: 380, 386-397, 496-499 */
+		#element380, #element386, #element387, #element388, #element389, #element390, #element391, #element392, #element393, #element394, #element395, #element396, #element397, #element496, #element497, #element498, #element499 {
+		    background: #B45808;  
+		}
+		
+		/* el: 510, 519, 520, 521, 522, 523, 544, 545, 546, 547, 569, 570 */
+		#element510, #element519, #element520, #element521, #element522, #element523, #element544, #element545, #element546, #element547, #element569, #element570 {
+		    background: #B45808; 
+		}
+		
+		/* el:254, 279, 280, 304, 305, 306, 330, 331, 332, 356, 357, 358, 398 */
+		#element254, #element279, #element280, #element304, #element305, #element306, #element330, #element331, #element332, #element356, #element357, #element358, #element398 {
+		    background: #DD8538; 
+		}
+		
+		/* el: 382, 383, 384, 408, 409, 410, 411, 421, 422, 423, 424 */
+		#element382, #element383, #element384, #element408, #element409, #element410, #element411, #element421, #element422, #element423, #element424 {
+		    background: #DD8538; 
+		}
+		
+		/* el: 434, 435, 436, 444, 445, 446, 447, 448, 449, 460, 469, 470, 471, 472, 494, 495 */
+		#element434, #element435, #element436, #element444, #element445, #element446, #element447, #element448, #element449, #element460, #element469, #element470, #element471, #element472, #element494, #element495 {
+		    background: #DD8538; 
+		}
+		
+		/* el: 329, 333, 355, 359, 381, 385, 407, 433, 459, 485 */
+	    #element329, #element333, #element355, #element359, #element381, #element385, #element407, #element433, #element459, #element485 {
+	        background: #B4641F; 
+	    }
+	    
+	    /* el: 130 */
+		#element130 {
+		    background: #EBE5D2;  
+		}
+		/* el: 27, 52, 53, 78, 79, 104, 105, 131 */
+        #element27, #element52, #element53, #element78, #element79, #element104, #element105, #element131 {
+            background: #E7D284;  
+        }
+        @media(min-width: 1950px) {
+            .container_huge {
+                width: 1400px;
+                place-self: center;
+            }
+        }
+        @media(max-width: 450px) {
+            .pixel {
+                padding: 0.5rem;
+            }
+            .pic_cell {
+                width: 0.56rem; 
+			    height: 0.466rem;
+            }
+        }
+        @media(max-width: 320px) {
+            .pic_cell {
+                width: 0.42rem; 
+			    height: 0.35rem;
+            }
+        }
+        @media(max-width: 279px) {
+            .container_huge {
+              display: none;
+            }
+        }
+
+
+
+
+
+
+
+
